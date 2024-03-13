@@ -1,0 +1,18 @@
+html{
+    background-color: rgb(243, 235, 235);
+}
+menu{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    background-color: rgba(99, 182, 255, 0.582);
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+menu a{
+    font-size: 18px;
+    text-decoration: none;
+    text-justify: unset;
+    color: inherit;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
