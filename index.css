@@ -1,5 +1,5 @@
 html{
-    background-color: rgb(243, 235, 235);
+    background-color: rgb(215, 244, 253);
 }
 menu{
     justify-content: space-around;
@@ -15,4 +15,35 @@ menu a{
     text-justify: unset;
     color: inherit;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35;
+    text-align: center;
+}
+
+section#Foto img{
+    border-radius: 100px;
+    height: auto;
+    display: block;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul,li{
+    list-style: none;
+    padding: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+table,tbody, tr, td{
+    border: 2px solid black;
+    border-collapse: collapse;
 }
