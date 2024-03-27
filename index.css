@@ -2,6 +2,8 @@ html{
     background-color: rgb(215, 244, 253);
 }
 
+
+
 menu{
     justify-content: space-around;
     list-style: none;
@@ -13,10 +15,11 @@ menu{
 
 menu a{
     font-size: 25px;
+    text-transform: uppercase;
     text-decoration: none;
     text-justify: unset;
     color: rgb(10, 10, 70);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 h1{
@@ -26,13 +29,14 @@ h1{
 }
 
 h2{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 33;
 }
 
 ul,li{
     list-style: none;
     padding: 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Pixelify Sans", sans-serif;
 }
 
 section#sobremim{
@@ -44,10 +48,11 @@ section#sobremim img.pfp{
     border-radius: 30px;
     height: 500px;
     width: 500px;
+    border: rgba(99, 182, 255, 0.582) solid 5px; 
 }
 
 section#sobremim img.info{
-    height: 650;
+    height: 500;
 }
 
 section#sobremim.texto p, h2{
@@ -59,11 +64,11 @@ abbr{
 }
 
 p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
 
 table,tbody, tr, td{
     border: 2px solid black;
     border-collapse: collapse;
 }
-
