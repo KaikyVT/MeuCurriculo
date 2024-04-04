@@ -3,6 +3,62 @@ html{
 }
 
 
+@keyframes animado {
+    0% {
+        transform: translateY(0); /* Define a posição inicial da imagem */
+    }
+    50% {
+        transform: translateY(-10px); /* Define a posição flutuante para cima */
+    }
+    100% {
+        transform: translateY(0); /* Retorna a imagem à posição inicial */
+    }
+}
+
+@keyframes tremido {
+    0% {
+        transform: rotate(-3deg);
+    }
+
+    50% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        transform: rotate(-3deg);
+    }
+    
+}
+
+@keyframes rodar {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+
+}
+
+menu li {
+    animation: tremido 2s ease-in-out infinite;
+}
+
+menu li a {
+    color: black;
+    transition: color 0.3s ease;
+}
+
+menu li a:hover {
+    color: white;
+}
+
+section#sobremim .animado {
+    animation: animado 3.3s ease-in-out infinite; /* Aplica a animação à imagem */
+}
 
 menu{
     justify-content: space-around;
@@ -23,12 +79,14 @@ menu a{
 }
 
 h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 50px;
     text-align: center;
+    color: rgb(18, 187, 187);
 }
 
 h2{
+    color: rgb(18, 187, 187);
     font-family: "Pixelify Sans", sans-serif;
     font-size: 33;
 }
@@ -40,35 +98,22 @@ ul,li{
 }
 
 section#sobremim{
-    margin: 2px;
-    display:flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-section#sobremim img.pfp{
-    border-radius: 30px;
-    height: 500px;
-    width: 500px;
-    border: rgba(99, 182, 255, 0.582) solid 5px; 
-}
-
-section#sobremim img.info{
-    height: 500;
-}
-
-section#sobremim.texto p, h2{
-    
-}
 
 abbr{
     text-decoration: none;
 }
 
 p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Pixelify Sans", sans-serif;
     font-size: 20px;
 }
 
-table,tbody, tr, td{
-    border: 2px solid black;
-    border-collapse: collapse;
+section#imagemcontato a{
+    animation: rodar 2s;
 }
+
