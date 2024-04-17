@@ -2,6 +2,10 @@ html{
     background-color: rgb(19, 19, 19);
 }
 
+body > p{
+    display: none;
+}
+
 .pixelify-sans-fonte{
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
@@ -9,6 +13,17 @@ html{
     font-style: normal;
 }
 
+.press-start-2p-regular {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .micro-5-charted-regular {
+    font-family: "Micro 5 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 
 @keyframes animado {
     0% {
@@ -216,4 +231,10 @@ li{
     font-family: "Pixelify Sans", sans-serif;
 }
 
+@media screen and (max-width: 250px){
 
+body>p{
+    display: block;
+    color: rgb(24, 216, 62);;
+}
+}
